@@ -24,13 +24,10 @@ class ShoppingCart extends React.Component {
 
   getItems() {
     // some request here
-    return [{id: 1, name: "Cool Banana", price: 2.49},
-            {id: 2, name: "Epic Apple", price: 3.29},
-            {id: 1, name: "Cool Banana", price: 2.49},
-            {id: 2, name: "Epic Apple", price: 3.29},
-            {id: 1, name: "Cool Banana", price: 2.49},
-            {id: 2, name: "Epic Apple", price: 3.29},
-            {id: 3, name: "Awesome Grape", price: 0.49}];
+    return [{id: 1, name: "Concurrency in C#", price: 20},
+            {id: 2, name: "Blockchain Basics", price: 15},
+            {id: 3, name: "Clean Code", price: 25},
+            {id: 4, name: "Code Complete", price: 12}];
   }
 
   getInitialState() {
